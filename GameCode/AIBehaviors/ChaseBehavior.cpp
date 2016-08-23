@@ -125,8 +125,8 @@ float ChaseBehavior::CalcUtility()
     {
         Actor* actor = *actorIter;
 
-		// #KSH: Consider putting into multiple lines--this line of code has 5 dereferences and 5 function calls!
-        int status = m_actor->GetFaction()->GetRelationshipStatus( actor->GetFaction()->GetFactionID(), m_actor->GetEntityID() );
+        Faction* actorFaction = m_actor->GetFaction();
+        int status = actorFaction->GetRelationshipStatus( actorFaction->GetFactionID(), m_actor->GetEntityID() );
         distance = Map::CalculateManhattanDistance( m_actor->GetMapPosition(), actor->GetMapPosition() );
 
         if (status < mostHostileStatus && distance <= m_range && !Map::IsAdjacent( m_actor->GetMapPosition(), actor->GetMapPosition() ) )
