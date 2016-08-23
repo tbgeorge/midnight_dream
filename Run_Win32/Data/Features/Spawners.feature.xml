@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Features>
+    <Feature name="Bone Pile" type="spawner" activeColor="0xFFFFFFFF" inactiveColor="0x555555FF" countdown="10" spawnNPC="Skeleton" spawnRadius="0" phrase="The pile of bones rattles."  />
+</Features>

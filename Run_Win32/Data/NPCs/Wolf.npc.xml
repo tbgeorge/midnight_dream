@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<NPC name="Wolf" faction="Wolf" glyph="w" color="0xCCCCCCFF" health="10~15" >
+    <AIBehavior name="Wander" />
+    <AIBehavior name="Chase" range="8" />
+    <AIBehavior name="Melee" damage="5~10" chanceToHit="0.7" chanceToCrit="0.08" attackVerb="mauls" />
+    <AIBehavior name="Follow" leader="Orc" range="10" />
+</NPC>

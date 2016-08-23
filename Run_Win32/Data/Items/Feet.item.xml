@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Items >
+    <Item name="Rusty Greaves" type="armor" equipSlot="feet" color="0xC7AFA7FF" armor="1~2" />
+    <Item name="Iron Greaves" type="armor" equipSlot="feet" color="0xBFBFBFFF" armor="2~4" />
+</Items>

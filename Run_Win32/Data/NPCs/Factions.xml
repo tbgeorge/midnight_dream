@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Factions>
+	<Faction name="Player" />
+
+    <Faction name ="Goblin" >
+        <Relation name="Undead" status="hated" />
+        <Relation name="Wolf" status="disliked" />
+        <Relation name="Orc" status="liked" />
+    </Faction>
+    
+    <Faction name="Wolf" >
+        <Relation name="Orc" status="liked" />
+        <Relation name="Undead" status="disliked" />
+    </Faction>
+    
+    <Faction name="Undead" >
+        <Relation name="Orc" status="disliked" />
+        <Relation name="Player" status="hated" />
+    </Faction>
+    
+    <Faction name="Orc" >
+        <Relation name="Goblin" status="liked" />
+        <Relation name="Wolf" status="liked" />
+        <Relation name="Undead" status="neutral" />
+        <Relation name="Player" status="hated" />
+    </Faction>
+    
+    <Faction name="Dreamer" >
+        <Relation name="Undead" status="liked" />
+        <Relation name="Player" status="hated" />
+    </Faction>
+	<!--
+    <Faction name="Undead" >
+        <Relation name="Human" status="hated" />
+        <Relation name="Bats" status="neutral" />
+    </Faction>
+    
+    <Faction name="Humans" >
+        <Relation name="Undead" status="hated" />
+        <Relation name="Bats" status="hated" />
+    </Faction>
+
+    <Faction name="Bats" >
+        <Relation name="Humans" status="hated" />
+        <Relation name="Undead" status="neutral" />
+    </Faction> -->
+</Factions>

@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugInline|Win32">
+      <Configuration>DebugInline</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugInline|x64">
+      <Configuration>DebugInline</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Final|Win32">
+      <Configuration>Final</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Final|x64">
+      <Configuration>Final</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5FD4B9B7-77F6-4051-A70E-F83B81679DAA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TestGame</RootNamespace>
+    <ProjectName>MidnightDream</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugInline|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugInline|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugInline|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugInline|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Final|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugInline|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugInline|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\;$(SolutionDir)..\..\..\</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)$(ProjectName).exe" "$(SolutionDir)..\Run_$(PlatformName)\$(ProjectName)_Debug.exe"</Command>
+      <Message>Copying $(TargetFileName) to Run_$(PlatformName) as $(ProjectName)_Debug.exe</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\;$(SolutionDir)..\..\..\</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)$(ProjectName).exe" "$(SolutionDir)..\Run_$(PlatformName)\$(ProjectName)_Debug.exe"</Command>
+      <Message>Copying $(TargetFileName) to Run_$(PlatformName) as $(ProjectName)_Debug.exe</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugInline|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\;$(SolutionDir)..\..\..\</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)$(ProjectName).exe" "$(SolutionDir)..\Run_$(PlatformName)\$(ProjectName)_DebugInline.exe"</Command>
+      <Message>Copying $(TargetFileName) to Run_$(PlatformName) as $(ProjectName)_DebugInline.exe</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugInline|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\;$(SolutionDir)..\..\..\</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)$(ProjectName).exe" "$(SolutionDir)..\Run_$(PlatformName)\$(ProjectName)_DebugInline.exe"</Command>
+      <Message>Copying $(TargetFileName) to Run_$(PlatformName) as $(ProjectName)_DebugInline.exe</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\;$(SolutionDir)..\..\..\</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)$(ProjectName).exe" "$(SolutionDir)..\Run_$(PlatformName)\$(ProjectName)_Release.exe"</Command>
+      <Message>Copying $(TargetFileName) to Run_$(PlatformName) as $(ProjectName)_Release.exe</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\;$(SolutionDir)..\..\..\</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)$(ProjectName).exe" "$(SolutionDir)..\Run_$(PlatformName)\$(ProjectName)_Release.exe"</Command>
+      <Message>Copying $(TargetFileName) to Run_$(PlatformName) as $(ProjectName)_Release.exe</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\;$(SolutionDir)..\..\..\</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)$(ProjectName).exe" "$(SolutionDir)..\Run_$(PlatformName)\$(ProjectName)_Release.exe"</Command>
+      <Message>Copying $(TargetFileName) to Run_$(PlatformName) as $(ProjectName)_Release.exe</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Final|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\;$(SolutionDir)..\..\..\</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)$(ProjectName).exe" "$(SolutionDir)..\Run_$(PlatformName)\$(ProjectName)_Release.exe"</Command>
+      <Message>Copying $(TargetFileName) to Run_$(PlatformName) as $(ProjectName)_Release.exe</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Engine\Engine.vcxproj">
+      <Project>{d2a64492-6652-4846-9b1f-38617891f463}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AIBehaviors\BaseAIBehavior.cpp" />
+    <ClCompile Include="AIBehaviors\ChaseBehavior.cpp" />
+    <ClCompile Include="AIBehaviors\DrainLifeBehavior.cpp" />
+    <ClCompile Include="AIBehaviors\FollowBehavior.cpp" />
+    <ClCompile Include="AIBehaviors\InspectItemBehavior.cpp" />
+    <ClCompile Include="AIBehaviors\MeleeAttackBehavior.cpp" />
+    <ClCompile Include="AIBehaviors\PickupItemBehavior.cpp" />
+    <ClCompile Include="AIBehaviors\TeleportBehavior.cpp" />
+    <ClCompile Include="AIBehaviors\TurnUndeadBehavior.cpp" />
+    <ClCompile Include="AIBehaviors\WanderBehavior.cpp" />
+    <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="CombatSystem.cpp" />
+    <ClCompile Include="Entities\Actor.cpp" />
+    <ClCompile Include="Entities\Entity.cpp" />
+    <ClCompile Include="Entities\Feature.cpp" />
+    <ClCompile Include="Entities\Item.cpp" />
+    <ClCompile Include="Entities\NPC.cpp" />
+    <ClCompile Include="Entities\Player.cpp" />
+    <ClCompile Include="Faction.cpp" />
+    <ClCompile Include="FeatureFactory.cpp" />
+    <ClCompile Include="FieldOfViewCalculator.cpp" />
+    <ClCompile Include="GameOverMenu.cpp" />
+    <ClCompile Include="Generators\BaseMapGenerator.cpp" />
+    <ClCompile Include="Generators\CatacombGenerator.cpp" />
+    <ClCompile Include="Generators\CellularAutomatonMapGenerator.cpp" />
+    <ClCompile Include="Generators\DungeonGenerator.cpp" />
+    <ClCompile Include="Generators\FromDataMapGenerator.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="ItemFactory.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="Main_Win32.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="MessageBar.cpp" />
+    <ClCompile Include="NPCFactory.cpp" />
+    <ClCompile Include="Pathfinder.cpp" />
+    <ClCompile Include="QuestMenu.cpp" />
+    <ClCompile Include="StatusBar.cpp" />
+    <ClCompile Include="TheApp.cpp" />
+    <ClCompile Include="Game.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AIBehaviors\BaseAIBehavior.hpp" />
+    <ClInclude Include="AIBehaviors\ChaseBehavior.hpp" />
+    <ClInclude Include="AIBehaviors\DrainLifeBehavior.hpp" />
+    <ClInclude Include="AIBehaviors\FollowBehavior.hpp" />
+    <ClInclude Include="AIBehaviors\InspectItemBehavior.hpp" />
+    <ClInclude Include="AIBehaviors\MeleeAttackBehavior.hpp" />
+    <ClInclude Include="AIBehaviors\PickupItemBehavior.hpp" />
+    <ClInclude Include="AIBehaviors\TeleportBehavior.hpp" />
+    <ClInclude Include="AIBehaviors\TurnUndeadBehavior.hpp" />
+    <ClInclude Include="AIBehaviors\WanderBehavior.hpp" />
+    <ClInclude Include="Cell.hpp" />
+    <ClInclude Include="CombatSystem.hpp" />
+    <ClInclude Include="Entities\Actor.hpp" />
+    <ClInclude Include="Entities\Entity.hpp" />
+    <ClInclude Include="Entities\Feature.hpp" />
+    <ClInclude Include="Entities\Item.hpp" />
+    <ClInclude Include="Entities\NPC.hpp" />
+    <ClInclude Include="Entities\Player.hpp" />
+    <ClInclude Include="Faction.hpp" />
+    <ClInclude Include="FeatureFactory.hpp" />
+    <ClInclude Include="FieldOfViewCalculator.hpp" />
+    <ClInclude Include="GameOverMenu.hpp" />
+    <ClInclude Include="Generators\BaseMapGenerator.hpp" />
+    <ClInclude Include="Generators\CatacombGenerator.hpp" />
+    <ClInclude Include="Generators\CellularAutomatonMapGenerator.hpp" />
+    <ClInclude Include="Generators\DungeonGenerator.hpp" />
+    <ClInclude Include="Generators\FromDataMapGenerator.hpp" />
+    <ClInclude Include="Inventory.hpp" />
+    <ClInclude Include="ItemFactory.hpp" />
+    <ClInclude Include="MainMenu.hpp" />
+    <ClInclude Include="Map.hpp" />
+    <ClInclude Include="MessageBar.hpp" />
+    <ClInclude Include="NPCFactory.hpp" />
+    <ClInclude Include="Pathfinder.hpp" />
+    <ClInclude Include="QuestMenu.hpp" />
+    <ClInclude Include="StatusBar.hpp" />
+    <ClInclude Include="TheApp.hpp" />
+    <ClInclude Include="Game.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Run_Win32\Data\Shaders\basic.frag" />
+    <None Include="..\Run_Win32\Data\Shaders\basic.vert" />
+    <None Include="..\Run_Win32\Data\Shaders\devConsole.frag" />
+    <None Include="..\Run_Win32\Data\Shaders\devConsole.vert" />
+    <None Include="..\Run_Win32\Data\Shaders\font.frag" />
+    <None Include="..\Run_Win32\Data\Shaders\font.vert" />
+    <None Include="..\Run_Win32\Data\Shaders\textured.frag" />
+    <None Include="..\Run_Win32\Data\Shaders\textured.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Run_Win32\Data\Features\Doors.feature.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\Run_Win32\Data\Features\Spawners.feature.xml" />
+    <Xml Include="..\Run_Win32\Data\Items\Chest.item.xml" />
+    <Xml Include="..\Run_Win32\Data\Items\Feet.item.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\Run_Win32\Data\Items\Legs.item.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\Run_Win32\Data\Items\Primary.item.xml" />
+    <Xml Include="..\Run_Win32\Data\Items\Potions.item.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\Run_Win32\Data\Items\Head.item.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\Run_Win32\Data\Items\Secondary.item.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\Run_Win32\Data\Maps\FieldOfView.Map.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\Run_Win32\Data\Maps\TestPathing.Map.xml" />
+    <Xml Include="..\Run_Win32\Data\Maps\Town.Map.xml" />
+    <Xml Include="..\Run_Win32\Data\NPCs\Factions.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\Run_Win32\Data\NPCs\Goblin.npc.old.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\Run_Win32\Data\NPCs\Orc.npc.old.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\Run_Win32\Data\NPCs\Paladin.npc.xml" />
+    <Xml Include="..\Run_Win32\Data\NPCs\Skeleton.npc.xml" />
+    <Xml Include="..\Run_Win32\Data\NPCs\The Dreamer.npc.old.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\Run_Win32\Data\NPCs\Vampire Bat.npc.xml" />
+    <Xml Include="..\Run_Win32\Data\NPCs\Vampire Lord.npc.xml" />
+    <Xml Include="..\Run_Win32\Data\NPCs\Vampire.npc.old.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\Run_Win32\Data\NPCs\Wolf.npc.old.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\Run_Win32\Data\NPCs\Zombie.npc.old.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\Run_Win32\Data\Saves\SaveGame.sav.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Readme.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

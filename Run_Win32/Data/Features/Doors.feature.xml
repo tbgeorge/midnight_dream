@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Features>
+    <Feature name="Wooden Door" type="door" maxHealth="10" color="0x6E430BFF" />
+    <Feature name="Iron Gate" type="door" color="0xBFBFBFFF" />
+    <Feature name="Portcullis" type="door" color="0x9E9E9EFF" activeBlocksLOS="false"/>
+</Features>

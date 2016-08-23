@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Items >
+    <Item name="Rusty Sword" type="weapon" equipSlot="primary" color="0xC7AFA7FF" damage="2~4" />
+    <Item name="Iron Sword" type="weapon" equipSlot="primary" color="0xBFBFBFFF" damage="6~8" />
+    <Item name="Blood Sword" type="weapon" equipSlot="primary" color="0xC20000FF" damage="10~20" />
+    <Item name="Wooden Stake" type="weapon" equipSlot="primary" color="white" damage="4~6" additionalFactionDamage="5" affectedFaction="Undead" />
+</Items>

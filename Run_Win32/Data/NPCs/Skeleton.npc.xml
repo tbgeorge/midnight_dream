@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<NPC name="Skeleton" faction="Undead" glyph="s" color="255,255,255" health="6" visibilityRange="10" >
+    <AIBehavior name="Wander" chanceToRest="0.0" />
+    <AIBehavior name="Chase" range="3" />
+    <AIBehavior name="Melee" damage="2~5" chanceToHit="0.5" attackVerb="attacked" />
+    <AIBehavior name="PickupItem" range="10" />
+</NPC>

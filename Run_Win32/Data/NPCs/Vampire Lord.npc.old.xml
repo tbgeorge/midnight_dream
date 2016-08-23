@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<NPC name="Vampire Lord" faction="Undead" glyph="V" color="200,0,200" health="25" visibilityRange="10" >
+    <AIBehavior name="Wander" chanceToRest="0.5" healFromResting="1" />
+    <AIBehavior name="DrainLife" drainAmount="4~6" chanceToDrain="0.75" />
+    <AIBehavior name="Teleport" healthThreshold="0.5" maxTimes="2" chanceToTeleport="0.5" phrase="turns to mist" />
+    <AIBehavior name="Chase" range="10" />
+    <AIBehavior name="PickupItem" range="10" />
+</NPC>

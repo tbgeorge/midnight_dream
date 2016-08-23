@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<NPC name="Vampire" faction="Undead" glyph="V" color="0x870000FF" health="15~25" >
+    <AIBehavior name="Wander" />
+    <AIBehavior name="Chase" range="5" />
+    <AIBehavior name="Melee" damage="10~17" chanceToHit="0.8" chanceToCrit="0.1" attackVerb="bites" />
+
+</NPC>

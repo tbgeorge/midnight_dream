@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<NPC name="Zombie" faction="Undead" glyph="z" color="0x705C2EFF" health="9~16" >
+    <AIBehavior name="Wander" />
+    <AIBehavior name="Chase" range="5" />
+    <AIBehavior name="Melee" damage="5~10" chanceToHit="0.7" chanceToCrit="0.08" attackVerb="bites" />
+</NPC>

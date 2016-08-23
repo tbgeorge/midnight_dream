@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<NPC name="Orc" faction="Orc" glyph="O" color="0x70FF00FF" health="10~20" visibilityRange="10" >
+    <Inventory>
+        <Equipment>
+            <Primary name="Rusty Sword" />
+        </Equipment>
+    </Inventory>
+    <AIBehavior name="Wander" />
+    <AIBehavior name="PickupItem" range="8" />
+    <AIBehavior name="Chase" range="7" />
+    <AIBehavior name="Melee" damage="8~12" chanceToHit="0.6" chaceToCrit="0.17" attackVerb="hits" />
+</NPC>

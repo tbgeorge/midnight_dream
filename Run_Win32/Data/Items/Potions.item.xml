@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Items>
+    <Item name="Minor Health Potion" type="potion" adjustHealth="3~5" color="0xFF7575FF" />
+    <Item name="Health Potion" type="potion" adjustHealth="7~9" color="0xFF3D3DFF" />
+    <Item name="Major Health Potion" type="potion" adjustHealth="10~12" color="0xFF1212FF" />
+    <Item name="Full Restore" type="potion" adjustHealth ="1000~1000" color="0xC20000FF" />
+</Items>

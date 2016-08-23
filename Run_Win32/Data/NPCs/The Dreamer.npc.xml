@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<NPC name="The Dreamer" faction="Dreamer" glyph="D" color="0x660066FF" health="100" visibilityRange="5" >
+    <AIBehavior name="Chase" range="4" />
+    <AIBehavior name="Melee" damage="20~30" chanceToHit="0.9" chaceToCrit="0.05" attackVerb="curses" />
+</NPC>

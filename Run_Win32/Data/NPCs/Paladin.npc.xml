@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<NPC name="Paladin" faction="Humans" glyph="P" color="255,255,0" health="13" visibilityRange="10" >
+    <AIBehavior name="Wander" chanceToRest="0.5" healFromResting="1" />
+    <AIBehavior name="Melee" damage="4~6" chanceToHit="0.5" attackVerb="attacked" />
+    <AIBehavior name="TurnUndead" faction="Undead" damage="4~6" radius="3" />
+    <AIBehavior name="Follow" leader="Player" distanceThreshold="2" />
+</NPC>

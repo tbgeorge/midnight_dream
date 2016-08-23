@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CharTest testVals="x"/>
+<IntTest testVals="23"/>
+<UnsignedIntTest testVals="98"/>
+<FloatTest testVals="24.299999"/>
+<DoubleTest testVals="56.400000"/>
+<BoolTest testVals="true"/>
+<RgbaTest testVals="255,0,0,255"/>
+<Vec2Test testVals="4.500000,43.200001"/>
+<Vec3Test testVals="4.500000,43.200001,34.000000"/>
+<IntVec2Test testVals="4,4"/>
+<IntVec3Test testVals="4,4,34"/>
+<fltRangeTest testVals="4.500000~43.200001"/>
+<IntRangeTest testVals="4~20"/>

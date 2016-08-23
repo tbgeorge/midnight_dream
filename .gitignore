@@ -1,0 +1,40 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+*.sdf
+*.ilk
+*.pdb
+*.opensdf
+*.suo
+*.tlog
+*.log
+*.idb
+*.zip
+*.cache
+Sound/cricket-1.4.2/doc/
+Sound/cricket-1.4.2/src/samples/
+
+Temporary/

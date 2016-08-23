@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<NPC name="Vampire Bat" faction="Bats" glyph="v" color="100,0,100" health="4" visibilityRange="10" >
+    <AIBehavior name="Wander" chanceToRest="0.1" healFromResting="1" />
+    <AIBehavior name="Chase" range="10" />
+    <AIBehavior name="DrainLife" drainAmount="2~4" chanceToHit="0.5" attackVerb="attacked" />
+    <AIBehavior name="Follow" leader="Vampire Bat" distanceThreshold="3" />
+</NPC>

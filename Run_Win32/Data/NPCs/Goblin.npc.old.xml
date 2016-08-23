@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<NPC name="Goblin" faction="Goblin" glyph="g" color="0x777700FF" health="8~12" visibilityRange="8" >
+    <Inventory>
+        <Equipment>
+            <Head name="Rusty Helm" />
+            <Chest name="Rusty Chestplate" />
+            <Legs name="Rusty Legs" />
+        </Equipment>
+    </Inventory>
+    <AIBehavior name="Wander" />
+    <AIBehavior name="Chase" range="3" />
+    <AIBehavior name="Melee" damage="3~6" chanceToHit="0.8" chanceToCrit="0.1" attackVerb="attacked" />
+    <AIBehavior name="PickupItem" range="8" />
+    <AIBehavior name="Follow" leader="Goblin" />
+</NPC>

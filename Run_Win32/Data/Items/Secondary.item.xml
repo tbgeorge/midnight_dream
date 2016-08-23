@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Items >
+    <Item name="Rusty Dagger" type="weapon" equipSlot="secondary" color="0xC7AFA7FF" damage="2~4" />
+    <Item name="Rusty Shield" type="armor" equipSlot="secondary" color="0xC7AFA7FF" armor="1~2" />
+    <Item name="Iron Dagger" type="weapon" equipSlot="secondary" color="0xBFBFBFFF" damage="4~6" />
+    <Item name="Spiked Shield" type="armor" equipSlot="secondary" color="0xBFBFEFFF" armor="2~4" damage="2~3" />
+</Items>
