@@ -2,6 +2,8 @@ Tyler George
 Midnight Dream
 10/6/15
 
+This project relies on my personal game engine (Putty Engine) found here: https://github.com/tbgeorge/putty_engine
+
 Controls:
 	- H moves the player West
 	- J moves the player South

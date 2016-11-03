@@ -94,7 +94,6 @@ public:
 	///---------------------------------------------------------------------------------
 	/// Accessors/Queries
 	///---------------------------------------------------------------------------------
-	// #KSH: Return a const& for something like this... no need to duplicate it.
     std::string GetName() { return m_name; }
     virtual Map* CreateMap( const IntVector2& mapSize = IntVector2::ZERO ) = 0;
     virtual bool ProcessOneStep( Map* map ) = 0;
